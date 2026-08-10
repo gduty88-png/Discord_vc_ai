@@ -1,0 +1,20 @@
+# Copy this file to ".env" and fill in your own values.
+# cp .env.example .env
+
+# Token from the Discord Developer Portal (Bot tab -> Reset Token)
+DISCORD_TOKEN=
+
+# API key from console.groq.com (API Keys -> Create Key)
+GROQ_API_KEY=
+
+# The public URL your Colab notebook prints after starting the TTS server,
+# e.g. https://xxxx.ngrok-free.app/tts (changes every time you restart Colab)
+COLAB_TTS_URL=
+
+# Optional: describe the bot's personality. If left empty, a default
+# cheerful cartoon-character personality is used (see bot.py).
+BOT_PERSONALITY=
+
+# Optional: language code the bot expects to hear (e.g. "ar", "en").
+# Leave empty to let it auto-detect the spoken language.
+STT_LANGUAGE=
