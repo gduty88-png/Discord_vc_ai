@@ -1,6 +1,0 @@
-py-cord[voice]==2.5.0
-numpy
-requests
-webrtcvad
-python-dotenv
-groq==0.9.0
