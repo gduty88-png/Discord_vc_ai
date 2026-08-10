@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: Discord_vc_ai
+    env: python
+    buildCommand: apt-get update && apt-get install -y ffmpeg && pip install -r requirements.txt
+    startCommand: python bot.py
+
